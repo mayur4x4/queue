@@ -7,6 +7,7 @@ public class ArrayQue extends Quemain {
 	super();
 	}
 
+	
 	@Override
 	void enque(int n) {
 		// TODO Auto-generated method stub

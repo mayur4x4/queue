@@ -31,6 +31,7 @@ public class Qclient {
 		ltque.deque();
 		ltque.display();
 		
+		
 	}
 
 }
