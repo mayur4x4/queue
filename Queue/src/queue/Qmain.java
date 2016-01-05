@@ -13,7 +13,7 @@ public class Qmain {
 	        int size = scan.nextInt();
 		Queue q = new Queue(size);
 		
-		 char ch;
+		 int ch;
 		 
 	        do{
 	            System.out.println("\nQueue Operations");
@@ -45,10 +45,10 @@ public class Qmain {
                 break;
             }
                        
-            System.out.println("\nDo you want to continue (Type y or n) \n");
-            ch = scan.next().charAt(0);
+            System.out.println("\nDo you want to continue (Type 1) \n");
+            ch = scan.nextInt();
  
-        } while (ch == 'Y'|| ch == 'y');    
+        } while (ch == 0);    
 	            }
 	        
 	        
